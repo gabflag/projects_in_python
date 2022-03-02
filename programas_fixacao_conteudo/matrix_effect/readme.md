@@ -20,7 +20,7 @@
 # Pontos a ser melhorados:
   - Ser orientado a objetos;
   - Ter seu programa de teste;
-  - Ao invés de imprimir linhas geradas aleatóriamente, talvez ficaria mais fidedigno trabalhar com uma matriz bem desenhada EM COLUNAS para que na impressão linha por linha passase o mesmo efeito que o filme nos trás. 
+  - Ao invés de imprimir linhas geradas aleatóriamente, talvez ficaria mais fidedigno trabalhar com uma matriz bem desenhada EM COLUNAS para que na impressão linha por linha passasse o mesmo efeito que o filme nos trás. 
   
   
 # Observações:
