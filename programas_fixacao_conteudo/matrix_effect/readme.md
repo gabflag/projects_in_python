@@ -24,6 +24,6 @@
   
   
 # Observações:
-  Considero um projeto interessante para trabalhar com manipulação de strings e listas. Para que gostaria de verificar a 
+  Considero um projeto interessante para trabalhar com manipulação de strings e listas. Para aqueles que gostariam de verificar a 
   funcionalidade do módulo time e random vai ser de bom uso. Caso tenha algum erro de lógica no código, ortografia ou melhores 
   maneiras de serem executadas as tarefas dispostas ficaria grato pela compreensão. Aprecio sugestões para melhorar. Forte abraço.
