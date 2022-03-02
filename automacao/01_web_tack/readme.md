@@ -7,7 +7,7 @@
   
 # Sobre o programa:
 
-  Este é apenas um programa básico para me auxiliar no dia a dia. Estou realizando alguns exames e para não ficar lembrando do login, senha e site para consultar criei esse bot para fazer isso para mim.
+  Este é apenas um programa básico para me auxiliar no dia a dia. Estou realizando alguns exames e para não ficar lembrando do login, senha e site para fazer a consulta, criei esse bot para fazer isso para mim.
   
   
 ![Sem título](https://user-images.githubusercontent.com/95552879/154473089-e9e100eb-25f5-4cfc-869f-2a4f395aa589.png)
