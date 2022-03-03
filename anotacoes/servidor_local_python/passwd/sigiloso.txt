@@ -1,1 +1,5 @@
 Esse é um arquivo .txt que poderia ser acessado na rede local.
+
+Apenas reforçando, para saber a localização desse arquivo é necessário ter conciência da estrutura de pastas.
+
+localhost:8080/passwd/
