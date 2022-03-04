@@ -30,7 +30,7 @@
   utilizei o módulo string para criar todos os caracteres, e posterior, fazer a escolha desses caracteres
   com o módulo secrets, que é muito mais adequando (segundo a documentação) para esse tipo de situação (geração de senhas).
   
-#Observações:
+# Observações:
   É um projeto interessante para conhecer uma nova biblioteca e gerar uma senha forte :D.
   Caso tenha algum erro de lógica no código, ortografia ou melhores maneiras de serem executadas as
   tarefas dispostas ficaria grato pela compreensão. Aprecio sugestões para melhorar. Forte abraço.
