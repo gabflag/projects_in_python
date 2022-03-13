@@ -61,11 +61,12 @@ def main():
     while count < 5:
 
         imprime_lista(tree)
+        print(" |    | ".center(20))
         time.sleep(2)
         limpa_a_tela()
         imprime_lista(faz_arvore_piscar(tree))
+        print(" |    | ".center(20))
         time.sleep(2)
         limpa_a_tela()
-        count+=1
 
 main()
