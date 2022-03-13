@@ -12,7 +12,8 @@
   
   Programa simples de ser utilizado e de fácil customização pessoal no banco de dados.
  
-  ===> Conceitos abordados no programa:
+# Conceitos abordados no programa:
+
   - Laços: for e while;
   - Módulos: time, timedelta e & re;
   - Manipulação de listas.
