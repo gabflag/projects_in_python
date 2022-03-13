@@ -23,6 +23,5 @@
   
 # Observações:
 
-  É um projeto bacana de ser adotado para fixar a manipulação listas, strings, impressão e principalmente, trabalhar com o console. Caso tenha algum erro de lógica no código, ortografia ou melhores maneiras de serem executadas as
-  tarefas dispostas ficaria grato pela compreensão. Aprecio sugestões para melhorar. Forte abraço.
+  É um projeto bacana de ser adotado para fixar a manipulação listas, strings, impressão e principalmente, trabalhar com o console. Foi um desafio que vi em uma página e resolvi tentar desenvolver uma solução possível. Caso tenha algum erro de lógica no código, ortografia ou melhores maneiras de serem executadas as tarefas dispostas ficaria grato pela compreensão. Aprecio sugestões para melhorar. Forte abraço.
   
