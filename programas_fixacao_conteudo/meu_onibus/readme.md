@@ -1,4 +1,4 @@
-# compara_busca_binaria_e_sequencial + test
+# meu_onibus
 
 # Linguagem utilizada:
 
