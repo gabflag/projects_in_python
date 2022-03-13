@@ -74,6 +74,7 @@ def main():
   group_onb = [bairro_um, centro_um,
   bairro_dois, centro_dois
   ]
+  
   group_onb_aws = ['O próximo BAIRRO_01 saída bairro: ', 'O próxímo BAIRRO_01 saída centro: ',
   'O próximo BAIRRO_02 saída bairro: ', 'O próxímo BAIRRO_02 saída centro: '
   ]
