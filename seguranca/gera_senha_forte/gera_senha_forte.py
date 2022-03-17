@@ -1,22 +1,51 @@
+from tkinter import *
 import string, secrets
 
 class Gerador_de_senha:
 
-    def gera_senha(self, qnt_caracteres):
+    def __init__(self):
+
+        self.window = Tk()
+        self.window.title("Make here your new password")
+        self.window.geometry("1350x500+0+0") #largura - altura - distância da borda esqueda - diantancia do fundo
+
+        self.label = Label(self.window, text="Make a new password:").grid(column=1, row=0)
+
+        self.botao = Button(self.window, text="DO", command=self.main)
+        self.botao.grid(column=1, row=1)
+
+        self.espaco = Label(self.window, text="").grid(column=1, row=2)
+        self.label_02 = Label(self.window, text="Number of characters").grid(column=1, row=3)
+
+        self.entrada = Entry(self.window)
+        self.entrada.insert(INSERT, "20")
+        self.entrada.grid(column=1, row=4)
+        
+        self.espaco_02 = Label(self.window, text="").grid(column=1, row=5)
+
+        self.resultado = Text(self.window)
+        self.resultado.insert(INSERT, 'Result')
+        self.resultado.grid(column=1, row=6)
+
+        self.window.mainloop()
+
+    def main(self,):
 
         '''
         Recebe um int na entrada e retorna uma senha forte com 
-        numero totaL de caracteres iguais ao int da entrada.
+        numero tota de caracteres iguais ao int da entrada.
         '''
+
+        number_char = int(self.entrada.get())
 
         caractere_senha = string.ascii_lowercase + string.ascii_uppercase + string.digits + string.punctuation
         password = ''
 
-        for x in range(qnt_caracteres):
+        for x in range(number_char):
             letra = secrets.choice(caractere_senha)
             password += letra
-        
-        return password
 
-a = Gerador_de_senha
-print(a.gera_senha(a, 15))
+        self.resultado.delete(1.0,END)
+        self.resultado.insert(INSERT,password)
+
+executar = Gerador_de_senha() 
