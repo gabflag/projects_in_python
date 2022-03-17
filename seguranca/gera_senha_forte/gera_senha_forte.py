@@ -7,7 +7,7 @@ class Gerador_de_senha:
 
         self.window = Tk()
         self.window.title("Make here your new password")
-        self.window.geometry("1350x500+0+0") #largura - altura - distância da borda esqueda - diantancia do fundo
+        self.window.geometry("600+600+0+0") #largura - altura - distância da borda esqueda - diantancia do fundo
 
         self.label = Label(self.window, text="Make a new password:").grid(column=1, row=0)
 
