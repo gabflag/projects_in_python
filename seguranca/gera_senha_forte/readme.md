@@ -14,10 +14,14 @@
       Caracteres especiais
       Números
       
-# Conceitos abordados:
-  - Módulos: string e secrets;
-  - Programação orientada a objetos. 
+ ![image](https://user-images.githubusercontent.com/95552879/158895181-96f11d83-3c2a-4adc-a607-e58ade8682bb.png)
 
+# Conceitos abordados
+
+  - Módulos: string e secrets;
+  - Programação orientada a objetos;
+  - GUI (Graphical User Interface)
+  - 
 # Lógica por trás do desenvolvimento:
 
   Um jeito de gerar uma senha forte seria criar uma lista dos itens (letras, símbolos e numeros) manualmente e sortear 
@@ -29,6 +33,10 @@
   Ao invés de criar uma lista com todos os caracteres da senha e posterior fazer o sorteio com o randon,
   utilizei o módulo string para criar todos os caracteres, e posterior, fazer a escolha desses caracteres
   com o módulo secrets, que é muito mais adequando (segundo a documentação) para esse tipo de situação (geração de senhas).
+  
+# O que foi refatorado nesse código:
+  
+  Fiz uma atualização pequena para pode usar via CMD graças a um laço de repetição. Mas como venho usando bastante esse programa considerei interessante possuir uma interface grafica. Tem como melhorar, não me atrai a forma como a entrada de caracteres está disposta, muito larga... fica o desafio para o leitor.
   
 # Observações:
   É um projeto interessante para conhecer uma nova biblioteca e gerar uma senha forte :D.
