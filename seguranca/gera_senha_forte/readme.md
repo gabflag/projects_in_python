@@ -9,10 +9,10 @@
 
   A senha gerada deverá conter(Não exclusivamente, o programa escolherá a melhor opção):
 
-      Letras Maisculas
-      Letras Minusculas
-      Caracteres especiais
-      Números
+      Letra Maiuscula
+      Letra Minuscula
+      Caracter especial
+      Número
       
  ![image](https://user-images.githubusercontent.com/95552879/158895181-96f11d83-3c2a-4adc-a607-e58ade8682bb.png)
 
