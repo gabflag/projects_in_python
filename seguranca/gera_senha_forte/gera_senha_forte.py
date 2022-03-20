@@ -2,12 +2,17 @@ from tkinter import *
 import string, secrets
 
 class Gerador_de_senha:
+    
+    '''
+    Cria uma GUI e nela pode-se gerar uma senha. Basta especificar a quantidade de caracteres
+    e clicar uma vez no botão 'DO', as senha irá aparecer no campo de texto abaixo.
+    '''
 
     def __init__(self):
 
         self.window = Tk()
         self.window.title("Make here your new password")
-        self.window.geometry("600+600+0+0") #largura - altura - distância da borda esqueda - diantancia do fundo
+        self.window.geometry("600x600+0+0") #largura - altura - distância da borda esqueda - diantancia do fundo
 
         self.label = Label(self.window, text="Make a new password:").grid(column=1, row=0)
 
@@ -48,4 +53,4 @@ class Gerador_de_senha:
         self.resultado.delete(1.0,END)
         self.resultado.insert(INSERT,password)
 
-executar = Gerador_de_senha() 
+teste = Gerador_de_senha() 
