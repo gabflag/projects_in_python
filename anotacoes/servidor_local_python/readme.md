@@ -18,6 +18,9 @@ python -m http.server 8080
 - 8080 é a porta aonde o serviço está disponibilizado
 
 
+Apenas para reitar, usuários linux podem utilizar a função wget (uma vez que as máquinas estejam na mesma rede) para fazer o download dos arquivos nesse servidor. O comando é simples:
+wget http://255.255.255.01:8080/passwd.txt
+
 Inicializado:
 
 ![image](https://user-images.githubusercontent.com/95552879/156079556-924293df-7bb0-4843-8405-2e87a187587f.png)
